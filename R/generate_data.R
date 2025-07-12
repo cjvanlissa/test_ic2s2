@@ -28,7 +28,7 @@ analyze_data <- function(df){
 perform_study <- function(study_design, reps = 100){
   library(future)
   # Sets up clusters from number of cores
-  plan(multis ession, workers = parallelly::availableCores()-2L)
+  plan(multisession, workers = parallelly::availableCores()-2L)
   pwr <- apply(study_design, 1, function(thisrow){
     # Replicate the row of the study design reps times
     out <- future.apply::future_replicate(n = reps, expr = {

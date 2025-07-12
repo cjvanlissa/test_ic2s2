@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 # Setup for targets:
 
 library(targets)
-library(revise)
 tar_config_set(store = "../_targets")
 tar_load(study_results)
 # You can interact with tar objects as usual, e.g.:
