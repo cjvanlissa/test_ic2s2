@@ -6261,8 +6261,8 @@
     },
     "worcs": {
       "Package": "worcs",
-      "Version": "0.1.19.1",
-      "Source": "unknown",
+      "Version": "0.1.19",
+      "Source": "GitHub",
       "Type": "Package",
       "Title": "Workflow for Open Reproducible Code in Science",
       "Authors@R": "c( person( given = c(\"Caspar\", \"J.\"), family = \"Van Lissa\", email = \"c.j.vanlissa@tilburguniversity.edu\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-0808-5024\") ), person( \"Aaron\", \"Peikert\", role = c(\"aut\"), comment = c(ORCID = \"0000-0001-7813-818X\") ), person( c(\"Andreas\", \"M.\"), \"Brandmaier\", role = \"aut\", comment = c(ORCID = \"0000-0001-8765-6982\") ) )",
@@ -6293,7 +6293,7 @@
       ],
       "Suggests": [
         "papaja (>= 0.1.1)",
-        "targets",
+        "targets (>= 1.11.1)",
         "lavaan",
         "tidySEM",
         "tarchetypes",
@@ -6310,7 +6310,13 @@
       "SystemRequirements": "pandoc (>= 1.14) - https://pandoc.org",
       "VignetteBuilder": "knitr",
       "Author": "Caspar J. Van Lissa [aut, cre] (ORCID: <https://orcid.org/0000-0002-0808-5024>), Aaron Peikert [aut] (ORCID: <https://orcid.org/0000-0001-7813-818X>), Andreas M. Brandmaier [aut] (ORCID: <https://orcid.org/0000-0001-8765-6982>)",
-      "Maintainer": "Caspar J. Van Lissa <c.j.vanlissa@tilburguniversity.edu>"
+      "Maintainer": "Caspar J. Van Lissa <c.j.vanlissa@tilburguniversity.edu>",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "cjvanlissa",
+      "RemoteRepo": "worcs",
+      "RemoteRef": "master",
+      "RemoteSha": "53d938d259b9c8945e8ebfe9017587466301c5f6"
     },
     "xfun": {
       "Package": "xfun",
