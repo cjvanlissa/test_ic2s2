@@ -11,7 +11,7 @@ name: worcs_testthat
 
 jobs:
   worcs_testthat:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
