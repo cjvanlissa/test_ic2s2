@@ -4,6 +4,8 @@
 
 <!-- badges: start -->
 
+[![worcs_testthat](https://github.com/cjvanlissa/test_ic2s2/actions/workflows/worcs_testthat.yaml/badge.svg)](https://github.com/cjvanlissa/test_ic2s2/actions/workflows/worcs_testthat.yaml)
+[![Codecov test coverage](https://codecov.io/gh/cjvanlissa/test_ic2s2/graph/badge.svg)](https://app.codecov.io/gh/cjvanlissa/test_ic2s2)
 <!-- badges: end -->
 
 <!-- Please add a brief introduction to explain what the project is about    -->

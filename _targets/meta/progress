@@ -1,0 +1,7 @@
+name|type|parent|branches|progress
+data|stem|data|0|dispatched
+data|stem|data|0|completed
+model|stem|model|0|dispatched
+model|stem|model|0|completed
+manuscript|stem|manuscript|0|dispatched
+manuscript|stem|manuscript|0|errored

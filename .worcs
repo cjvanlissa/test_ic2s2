@@ -1,0 +1,9 @@
+worcs_version: 0.1.19.1
+creator: vanlissa
+entry_point: manuscript/manuscript.Rmd
+recipe:
+  recipe: targets::tar_make()
+  terminal: no
+endpoints: manuscript/manuscript.html
+checksums:
+  manuscript/manuscript.html: 280077236a5c9329935247510da54485

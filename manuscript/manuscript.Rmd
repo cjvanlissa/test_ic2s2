@@ -1,0 +1,39 @@
+---
+title: "Untitled"
+output: github_document
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+bibliography: references.bib
+knit: worcs::cite_all
+---
+
+```{r setup, include=FALSE}
+library("worcs")
+library(theorytools)
+library(dagitty)
+library(tidySEM)
+knitr::opts_chunk$set(echo = TRUE)
+# Setup for targets:
+
+library(targets)
+library(revise)
+tar_config_set(store = "../_targets")
+tar_load(study_results)
+# You can interact with tar objects as usual, e.g.:
+# print(model)
+```
+
+```{r}
+sdt <- dagitty::dagitty(paste(readLines("theory/sdt.txt"), collapse = "\n"))
+sdt_pruned <- theorytools:::prune_dag(sdt,
+                                      exposure = "intrinsic_motivation",
+                                      outcome = "wellbeing")
+sdt_pruned
+set.seed(1)
+df <- theorytools::simulate_data(sdt_pruned, n = 100)
+head(df)
+res <- lm(wellbeing ~ intrinsic_motivation + needs, data = df)
+summary(res)
+sum_res <- summary(res)
+sum_res$coefficients["intrinsic_motivation", "Pr(>|t|)"] < .05
+knitr::kable(study_results, digits = 2)
+```

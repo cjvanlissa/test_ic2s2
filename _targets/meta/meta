@@ -1,0 +1,4 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|d7f0f61126601910|87f5902ed953433b|2c530c1562a7fbd1|33550471||t20281.2515636494s|s1742b|1742|rds|local|vector|||0.02||
+model|stem|78397f5110488dd9|693e4c90d947b5eb|045d09b79379d22e|808688450||t20281.2515651011s|s107b|107|rds|local|vector|||0||
+manuscript|stem||fab08525b09374c1|58ee4caebf515c3a|-1793997187||t20281.2515923891s||0|file|local|vector|||2.32||cannot open the connection
