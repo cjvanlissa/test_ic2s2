@@ -7,4 +7,5 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-testthat::test_dir("testthat")
+targets::tar_source()
+testthat::test_dir("tests/testthat")
