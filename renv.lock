@@ -689,29 +689,6 @@
       "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
       "Repository": "CRAN"
     },
-    "assertthat": {
-      "Package": "assertthat",
-      "Version": "0.2.1",
-      "Source": "Repository",
-      "Title": "Easy Pre and Post Assertions",
-      "Authors@R": "person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"))",
-      "Description": "An extension to stopifnot() that makes it easy to declare  the pre and post conditions that you code should satisfy, while also  producing friendly error messages so that your users know what's gone wrong.",
-      "License": "GPL-3",
-      "Imports": [
-        "tools"
-      ],
-      "Suggests": [
-        "testthat",
-        "covr"
-      ],
-      "RoxygenNote": "6.0.1",
-      "Collate": "'assert-that.r' 'on-failure.r' 'assertions-file.r' 'assertions-scalar.R' 'assertions.r' 'base.r' 'base-comparison.r' 'base-is.r' 'base-logical.r' 'base-misc.r' 'utils.r' 'validate-that.R'",
-      "NeedsCompilation": "no",
-      "Author": "Hadley Wickham [aut, cre]",
-      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-      "Repository": "RSPM",
-      "Encoding": "UTF-8"
-    },
     "backports": {
       "Package": "backports",
       "Version": "1.5.0",
@@ -930,60 +907,6 @@
       "Maintainer": "Edgar Merkle <merklee@missouri.edu>",
       "Repository": "CRAN"
     },
-    "bookdown": {
-      "Package": "bookdown",
-      "Version": "0.43",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Authoring Books and Technical Documents with R Markdown",
-      "Authors@R": "c( person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")), person(\"Christophe\", \"Dervieux\", , \"cderv@posit.co\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0003-4474-2498\")), person(\"JJ\", \"Allaire\", role = \"ctb\"), person(\"Albert\", \"Kim\", role = \"ctb\"), person(\"Alessandro\", \"Samuel-Rosa\", role = \"ctb\"), person(\"Andrzej\", \"Oles\", role = \"ctb\"), person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")), person(\"Aust\", \"Frederik\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")), person(\"Bastiaan\", \"Quast\", role = \"ctb\"), person(\"Ben\", \"Marwick\", role = \"ctb\"), person(\"Chester\", \"Ismay\", role = \"ctb\"), person(\"Clifton\", \"Franklund\", role = \"ctb\"), person(\"Daniel\", \"Emaasit\", role = \"ctb\"), person(\"David\", \"Shuman\", role = \"ctb\"), person(\"Dean\", \"Attali\", role = \"ctb\"), person(\"Drew\", \"Tyre\", role = \"ctb\"), person(\"Ellis\", \"Valentiner\", role = \"ctb\"), person(\"Frans\", \"van Dunne\", role = \"ctb\"), person(\"Hadley\", \"Wickham\", role = \"ctb\"), person(\"Jeff\", \"Allen\", role = \"ctb\"), person(\"Jennifer\", \"Bryan\", role = \"ctb\"), person(\"Jonathan\", \"McPhers\", role = \"ctb\"), person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")), person(\"Joyce\", \"Robbins\", role = \"ctb\"), person(\"Junwen\", \"Huang\", role = \"ctb\"), person(\"Kevin\", \"Cheung\", role = \"ctb\"), person(\"Kevin\", \"Ushey\", role = \"ctb\"), person(\"Kim\", \"Seonghyun\", role = \"ctb\"), person(\"Kirill\", \"Muller\", role = \"ctb\"), person(\"Luciano\", \"Selzer\", role = \"ctb\"), person(\"Matthew\", \"Lincoln\", role = \"ctb\"), person(\"Maximilian\", \"Held\", role = \"ctb\"), person(\"Michael\", \"Sachs\", role = \"ctb\"), person(\"Michal\", \"Bojanowski\", role = \"ctb\"), person(\"Nathan\", \"Werth\", role = \"ctb\"), person(\"Noam\", \"Ross\", role = \"ctb\"), person(\"Peter\", \"Hickey\", role = \"ctb\"), person(\"Pedro Rafael D.\", \"Marinho\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1591-8300\")), person(\"Romain\", \"Lesur\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0721-5595\")), person(\"Sahir\", \"Bhatnagar\", role = \"ctb\"), person(\"Shir\", \"Dekel\", role = \"ctb\", comment = c(ORCID = \"0000-0003-1773-2446\")), person(\"Steve\", \"Simpson\", role = \"ctb\"), person(\"Thierry\", \"Onkelinx\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")), person(\"Vincent\", \"Fulco\", role = \"ctb\"), person(\"Yixuan\", \"Qiu\", role = \"ctb\"), person(\"Zhuoer\", \"Dong\", role = \"ctb\"), person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"Bartek\", \"Szopka\", role = \"ctb\", comment = \"The jQuery Highlight plugin\"), person(\"Zeno\", \"Rocha\", role = \"cph\", comment = \"clipboard.js library\"), person(family = \"MathQuill contributors\", role = \"ctb\", comment = \"The MathQuill library; authors listed in inst/resources/AUTHORS\"), person(family = \"FriendCode Inc\", role = c(\"cph\", \"ctb\"), comment = \"The gitbook style, with modifications\") )",
-      "Maintainer": "Yihui Xie <xie@yihui.name>",
-      "Description": "Output formats and utilities for authoring books and technical documents with R Markdown.",
-      "License": "GPL-3",
-      "Depends": [
-        "R (>= 3.5.0)"
-      ],
-      "Imports": [
-        "htmltools (>= 0.3.6)",
-        "knitr (>= 1.38)",
-        "rmarkdown (>= 2.14)",
-        "jquerylib",
-        "xfun (>= 0.48)",
-        "tinytex (>= 0.12)",
-        "yaml (>= 2.1.19)"
-      ],
-      "Suggests": [
-        "bslib (>= 0.2.4)",
-        "downlit (>= 0.4.0)",
-        "htmlwidgets",
-        "jsonlite",
-        "curl",
-        "rstudioapi",
-        "miniUI",
-        "rsconnect (>= 0.4.3)",
-        "servr (>= 0.13)",
-        "shiny",
-        "tibble",
-        "testit (>= 0.9)",
-        "tufte",
-        "xml2",
-        "webshot",
-        "testthat (>= 3.1.0)",
-        "withr (>= 2.3.0)"
-      ],
-      "URL": "https://github.com/rstudio/bookdown, https://pkgs.rstudio.com/bookdown/",
-      "BugReports": "https://github.com/rstudio/bookdown/issues",
-      "SystemRequirements": "Pandoc (>= 1.17.2)",
-      "RoxygenNote": "7.3.2",
-      "Encoding": "UTF-8",
-      "Config/Needs/book": "remotes, webshot, svglite",
-      "Config/Needs/website": "pkgdown, tidyverse/tidytemplate, rstudio/quillt",
-      "Config/testthat/edition": "3",
-      "VignetteBuilder": "knitr",
-      "NeedsCompilation": "no",
-      "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>), Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>), JJ Allaire [ctb], Albert Kim [ctb], Alessandro Samuel-Rosa [ctb], Andrzej Oles [ctb], Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>), Aust Frederik [ctb] (<https://orcid.org/0000-0003-4900-788X>), Bastiaan Quast [ctb], Ben Marwick [ctb], Chester Ismay [ctb], Clifton Franklund [ctb], Daniel Emaasit [ctb], David Shuman [ctb], Dean Attali [ctb], Drew Tyre [ctb], Ellis Valentiner [ctb], Frans van Dunne [ctb], Hadley Wickham [ctb], Jeff Allen [ctb], Jennifer Bryan [ctb], Jonathan McPhers [ctb], JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>), Joyce Robbins [ctb], Junwen Huang [ctb], Kevin Cheung [ctb], Kevin Ushey [ctb], Kim Seonghyun [ctb], Kirill Muller [ctb], Luciano Selzer [ctb], Matthew Lincoln [ctb], Maximilian Held [ctb], Michael Sachs [ctb], Michal Bojanowski [ctb], Nathan Werth [ctb], Noam Ross [ctb], Peter Hickey [ctb], Pedro Rafael D. Marinho [ctb] (<https://orcid.org/0000-0003-1591-8300>), Romain Lesur [ctb] (<https://orcid.org/0000-0002-0721-5595>), Sahir Bhatnagar [ctb], Shir Dekel [ctb] (<https://orcid.org/0000-0003-1773-2446>), Steve Simpson [ctb], Thierry Onkelinx [ctb] (<https://orcid.org/0000-0001-8804-4216>), Vincent Fulco [ctb], Yixuan Qiu [ctb], Zhuoer Dong [ctb], Posit Software, PBC [cph, fnd], Bartek Szopka [ctb] (The jQuery Highlight plugin), Zeno Rocha [cph] (clipboard.js library), MathQuill contributors [ctb] (The MathQuill library; authors listed in inst/resources/AUTHORS), FriendCode Inc [cph, ctb] (The gitbook style, with modifications)",
-      "Repository": "RSPM"
-    },
     "boot": {
       "Package": "boot",
       "Version": "1.3-31",
@@ -1010,6 +933,32 @@
       "NeedsCompilation": "no",
       "Author": "Angelo Canty [aut] (author of original code for S), Brian Ripley [aut, trl] (conversion to R, maintainer 1999--2022, author of parallel support), Alessandra R. Brazzale [ctb, cre] (minor bug fixes)",
       "Repository": "CRAN"
+    },
+    "brio": {
+      "Package": "brio",
+      "Version": "1.1.5",
+      "Source": "Repository",
+      "Title": "Basic R Input Output",
+      "Authors@R": "c( person(\"Jim\", \"Hester\", role = \"aut\", comment = c(ORCID = \"0000-0002-2739-7082\")), person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")), person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Description": "Functions to handle basic input output, these functions always read and write UTF-8 (8-bit Unicode Transformation Format) files and provide more explicit control over line endings.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://brio.r-lib.org, https://github.com/r-lib/brio",
+      "BugReports": "https://github.com/r-lib/brio/issues",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Suggests": [
+        "covr",
+        "testthat (>= 3.0.0)"
+      ],
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.2.3",
+      "NeedsCompilation": "yes",
+      "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>), Gábor Csárdi [aut, cre], Posit Software, PBC [cph, fnd]",
+      "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+      "Repository": "RSPM"
     },
     "broom": {
       "Package": "broom",
@@ -1849,6 +1798,40 @@
       "NeedsCompilation": "no",
       "Author": "Gábor Csárdi [aut, cre], Kirill Müller [aut], Jim Hester [aut], Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>), Posit Software, PBC [cph, fnd]",
       "Repository": "CRAN"
+    },
+    "diffobj": {
+      "Package": "diffobj",
+      "Version": "0.3.6",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Diffs for R Objects",
+      "Description": "Generate a colorized diff of two R objects for an intuitive visualization of their differences.",
+      "Authors@R": "c( person( \"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\", role=c(\"aut\", \"cre\")), person( \"Michael B.\", \"Allen\", email=\"ioplex@gmail.com\", role=c(\"ctb\", \"cph\"), comment=\"Original C implementation of Myers Diff Algorithm\"))",
+      "Depends": [
+        "R (>= 3.1.0)"
+      ],
+      "License": "GPL-2 | GPL-3",
+      "URL": "https://github.com/brodieG/diffobj",
+      "BugReports": "https://github.com/brodieG/diffobj/issues",
+      "RoxygenNote": "7.2.3",
+      "VignetteBuilder": "knitr",
+      "Encoding": "UTF-8",
+      "Suggests": [
+        "knitr",
+        "rmarkdown"
+      ],
+      "Collate": "'capt.R' 'options.R' 'pager.R' 'check.R' 'finalizer.R' 'misc.R' 'html.R' 'styles.R' 's4.R' 'core.R' 'diff.R' 'get.R' 'guides.R' 'hunks.R' 'layout.R' 'myerssimple.R' 'rdiff.R' 'rds.R' 'set.R' 'subset.R' 'summmary.R' 'system.R' 'text.R' 'tochar.R' 'trim.R' 'word.R'",
+      "Imports": [
+        "crayon (>= 1.3.2)",
+        "tools",
+        "methods",
+        "utils",
+        "stats"
+      ],
+      "NeedsCompilation": "yes",
+      "Author": "Brodie Gaslam [aut, cre], Michael B. Allen [ctb, cph] (Original C implementation of Myers Diff Algorithm)",
+      "Maintainer": "Brodie Gaslam <brodie.gaslam@yahoo.com>",
+      "Repository": "RSPM"
     },
     "digest": {
       "Package": "digest",
@@ -3838,50 +3821,6 @@
       "NeedsCompilation": "no",
       "Repository": "CRAN"
     },
-    "officer": {
-      "Package": "officer",
-      "Version": "0.6.10",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Manipulation of Microsoft Word and PowerPoint Documents",
-      "Authors@R": "c( person(\"David\", \"Gohel\", , \"david.gohel@ardata.fr\", role = c(\"aut\", \"cre\")), person(\"Stefan\", \"Moog\", , \"moogs@gmx.de\", role = \"aut\"), person(\"Mark\", \"Heckmann\", , \"heckmann.mark@gmail.com\", role = \"aut\", comment = c(ORCID = \"0000-0002-0736-7417\")), person(\"ArData\", role = \"cph\"), person(\"Frank\", \"Hangler\", , \"frank@plotandscatter.com\", role = \"ctb\", comment = \"function body_replace_all_text\"), person(\"Liz\", \"Sander\", , \"lsander@civisanalytics.com\", role = \"ctb\", comment = \"several documentation fixes\"), person(\"Anton\", \"Victorson\", , \"anton@victorson.se\", role = \"ctb\", comment = \"fixes xml structures\"), person(\"Jon\", \"Calder\", , \"jonmcalder@gmail.com\", role = \"ctb\", comment = \"update vignettes\"), person(\"John\", \"Harrold\", , \"john.m.harrold@gmail.com\", role = \"ctb\", comment = \"function annotate_base\"), person(\"John\", \"Muschelli\", , \"muschellij2@gmail.com\", role = \"ctb\", comment = \"google doc compatibility\"), person(\"Bill\", \"Denney\", , \"wdenney@humanpredictions.com\", role = \"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\", \"function as.matrix.rpptx\")), person(\"Nikolai\", \"Beck\", , \"beck.nikolai@gmail.com\", role = \"ctb\", comment = \"set speaker notes for .pptx documents\"), person(\"Greg\", \"Leleu\", , \"gregoire.leleu@gmail.com\", role = \"ctb\", comment = \"fields functionality in ppt\"), person(\"Majid\", \"Eismann\", role = \"ctb\"), person(\"Hongyuan\", \"Jia\", , \"hongyuanjia@cqust.edu.cn\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0075-8183\")), person(\"Michael\", \"Stackhouse\", , \"mike.stackhouse@atorusresearch.com\", role = \"ctb\") )",
-      "Description": "Access and manipulate 'Microsoft Word', 'RTF' and 'Microsoft PowerPoint' documents from R.  The package focuses on tabular and graphical reporting from R; it also provides two functions that let users get document content into data objects. A set of functions lets add and remove images, tables and paragraphs of text in new or existing documents.  The package does not require any installation of Microsoft products to be able to write Microsoft files.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://ardata-fr.github.io/officeverse/, https://davidgohel.github.io/officer/",
-      "BugReports": "https://github.com/davidgohel/officer/issues",
-      "Imports": [
-        "cli",
-        "graphics",
-        "grDevices",
-        "openssl",
-        "R6",
-        "ragg",
-        "stats",
-        "utils",
-        "uuid",
-        "xml2 (>= 1.1.0)",
-        "zip (>= 2.1.0)"
-      ],
-      "Suggests": [
-        "devEMF",
-        "doconv (>= 0.3.0)",
-        "gdtools",
-        "ggplot2",
-        "knitr",
-        "magick",
-        "rmarkdown",
-        "rsvg",
-        "testthat",
-        "withr"
-      ],
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "Collate": "'core_properties.R' 'custom_properties.R' 'defunct.R' 'dev-utils.R' 'docx_add.R' 'docx_comments.R' 'docx_cursor.R' 'docx_part.R' 'docx_replace.R' 'docx_section.R' 'docx_settings.R' 'empty_content.R' 'formatting_properties.R' 'fortify_docx.R' 'fortify_pptx.R' 'knitr_utils.R' 'officer.R' 'ooxml.R' 'ooxml_block_objects.R' 'ooxml_run_objects.R' 'openxml_content_type.R' 'openxml_document.R' 'pack_folder.R' 'ph_location.R' 'post-proc.R' 'ppt_class_dir_collection.R' 'ppt_classes.R' 'ppt_notes.R' 'ppt_ph_dedupe_layout.R' 'ppt_ph_manipulate.R' 'ppt_ph_rename_layout.R' 'ppt_ph_with_methods.R' 'pptx_informations.R' 'pptx_layout_helper.R' 'pptx_matrix.R' 'utils.R' 'pptx_slide_manip.R' 'read_docx.R' 'read_docx_styles.R' 'read_pptx.R' 'read_xlsx.R' 'relationship.R' 'rtf.R' 'shape_properties.R' 'shorcuts.R' 'docx_append_context.R' 'utils-xml.R' 'deprecated.R'",
-      "NeedsCompilation": "no",
-      "Author": "David Gohel [aut, cre], Stefan Moog [aut], Mark Heckmann [aut] (ORCID: <https://orcid.org/0000-0002-0736-7417>), ArData [cph], Frank Hangler [ctb] (function body_replace_all_text), Liz Sander [ctb] (several documentation fixes), Anton Victorson [ctb] (fixes xml structures), Jon Calder [ctb] (update vignettes), John Harrold [ctb] (function annotate_base), John Muschelli [ctb] (google doc compatibility), Bill Denney [ctb] (ORCID: <https://orcid.org/0000-0002-5759-428X>, function as.matrix.rpptx), Nikolai Beck [ctb] (set speaker notes for .pptx documents), Greg Leleu [ctb] (fields functionality in ppt), Majid Eismann [ctb], Hongyuan Jia [ctb] (ORCID: <https://orcid.org/0000-0002-0075-8183>), Michael Stackhouse [ctb]",
-      "Maintainer": "David Gohel <david.gohel@ardata.fr>",
-      "Repository": "RSPM"
-    },
     "openssl": {
       "Package": "openssl",
       "Version": "2.3.2",
@@ -3978,68 +3917,6 @@
       "Maintainer": "Gergely Daróczi <daroczig@rapporter.net>",
       "Repository": "CRAN"
     },
-    "papaja": {
-      "Package": "papaja",
-      "Version": "0.1.3",
-      "Source": "Repository",
-      "Title": "Prepare American Psychological Association Journal Articles with R Markdown",
-      "Description": "Tools to create dynamic, submission-ready manuscripts, which conform to American Psychological Association manuscript guidelines. We provide R Markdown document formats for manuscripts (PDF and Word) and revision letters (PDF). Helper functions facilitate reporting statistical analyses or create publication-ready tables and plots.",
-      "Authors@R": "c( person(\"Frederik\", \"Aust\", email = \"frederik.aust@uni-koeln.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4900-788X\")) , person(\"Marius\", \"Barth\", email = \"marius.barth@uni-koeln.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-3421-6665\")) , person(\"Birk\", \"Diedenhofen\", email = \"mail@birkdiedenhofen.de\", role = c(\"ctb\")) , person(\"Christoph\", \"Stahl\", email = \"christoph.stahl@uni-koeln.de\", role = c(\"ctb\")) , person(\"Joseph V.\", \"Casillas\", email = \"joseph.casillas@rutgers.edu\", role = c(\"ctb\")) , person(\"Rudolf\", \"Siegel\", email = \"rudolf.siegel@uni-saarland.de\", role = c(\"ctb\")) )",
-      "Date": "2024-10-23",
-      "URL": "https://github.com/crsh/papaja",
-      "BugReports": "https://github.com/crsh/papaja/issues",
-      "Depends": [
-        "R (>= 4.2)",
-        "tinylabels (>= 0.2.4)"
-      ],
-      "Imports": [
-        "bookdown (>= 0.41)",
-        "broom (>= 1.0.7)",
-        "glue (>= 1.8.0)",
-        "knitr (>= 1.48)",
-        "methods",
-        "rmarkdown (>= 2.28)",
-        "rmdfiltr (>= 0.1.5)",
-        "utils",
-        "yaml (>= 2.3.10)",
-        "zip (>= 2.3.1)"
-      ],
-      "Suggests": [
-        "afex",
-        "BayesFactor",
-        "beeswarm",
-        "boot",
-        "car",
-        "dplyr (>= 1.1.0)",
-        "effectsize (>= 0.4.4)",
-        "emmeans",
-        "ggforce",
-        "ggplot2",
-        "latex2exp",
-        "lme4",
-        "lmerTest",
-        "MASS",
-        "MBESS",
-        "multcomp",
-        "nlme",
-        "nnet",
-        "R.rsp",
-        "skimr",
-        "spelling",
-        "testthat",
-        "VGAM"
-      ],
-      "SystemRequirements": "Rendering the document template requires pandoc (>= 2.0; https://pandoc.org) and for PDFs a TeX distribution, such as TinyTeX (>= 0.12; https://yihui.org/tinytex/)",
-      "License": "MIT + file LICENSE",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "VignetteBuilder": "knitr, R.rsp",
-      "Language": "en-US",
-      "NeedsCompilation": "no",
-      "Author": "Frederik Aust [aut, cre] (<https://orcid.org/0000-0003-4900-788X>), Marius Barth [aut] (<https://orcid.org/0000-0002-3421-6665>), Birk Diedenhofen [ctb], Christoph Stahl [ctb], Joseph V. Casillas [ctb], Rudolf Siegel [ctb]",
-      "Maintainer": "Frederik Aust <frederik.aust@uni-koeln.de>",
-      "Repository": "RSPM"
-    },
     "parallelly": {
       "Package": "parallelly",
       "Version": "1.45.0",
@@ -4119,38 +3996,6 @@
       "NeedsCompilation": "no",
       "Author": "Ulrich Halekoh [aut, cph], Søren Højsgaard [aut, cre, cph]",
       "Repository": "CRAN"
-    },
-    "pdftools": {
-      "Package": "pdftools",
-      "Version": "3.5.0",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Text Extraction, Rendering and Converting of PDF Documents",
-      "Authors@R": "person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroenooms@gmail.com\", comment = c(ORCID = \"0000-0002-4035-0289\"))",
-      "Description": "Utilities based on 'libpoppler' <https://poppler.freedesktop.org> for extracting text, fonts, attachments and metadata from a PDF file. Also supports high quality rendering of PDF documents into PNG, JPEG, TIFF format, or into raw bitmap vectors for further  processing in R.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://ropensci.r-universe.dev/pdftools, https://docs.ropensci.org/pdftools/",
-      "BugReports": "https://github.com/ropensci/pdftools/issues",
-      "SystemRequirements": "Poppler C++ API: libpoppler-cpp-dev (deb) or poppler-cpp-devel (rpm), and poppler-data (rpm/deb) package.",
-      "Encoding": "UTF-8",
-      "Imports": [
-        "Rcpp (>= 0.12.12)",
-        "qpdf"
-      ],
-      "LinkingTo": [
-        "Rcpp"
-      ],
-      "Suggests": [
-        "png",
-        "webp",
-        "tesseract",
-        "testthat"
-      ],
-      "RoxygenNote": "7.2.3",
-      "NeedsCompilation": "yes",
-      "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)",
-      "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
-      "Repository": "RSPM"
     },
     "pillar": {
       "Package": "pillar",
@@ -4272,6 +4117,55 @@
       "NeedsCompilation": "no",
       "Repository": "CRAN"
     },
+    "pkgload": {
+      "Package": "pkgload",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Title": "Simulate Package Installation and Attach",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Winston\", \"Chang\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"R Core team\", role = \"ctb\", comment = \"Some namespace and vignette code extracted from base R\") )",
+      "Description": "Simulates the process of installing a package and then attaching it. This is a key part of the 'devtools' package as it allows you to rapidly iterate while developing a package.",
+      "License": "GPL-3",
+      "URL": "https://github.com/r-lib/pkgload, https://pkgload.r-lib.org",
+      "BugReports": "https://github.com/r-lib/pkgload/issues",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.3.0)",
+        "desc",
+        "fs",
+        "glue",
+        "lifecycle",
+        "methods",
+        "pkgbuild",
+        "processx",
+        "rlang (>= 1.1.1)",
+        "rprojroot",
+        "utils",
+        "withr (>= 2.4.3)"
+      ],
+      "Suggests": [
+        "bitops",
+        "jsonlite",
+        "mathjaxr",
+        "pak",
+        "Rcpp",
+        "remotes",
+        "rstudioapi",
+        "testthat (>= 3.2.1.1)",
+        "usethis"
+      ],
+      "Config/Needs/website": "tidyverse/tidytemplate, ggplot2",
+      "Config/testthat/edition": "3",
+      "Config/testthat/parallel": "TRUE",
+      "Config/testthat/start-first": "dll",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.1",
+      "NeedsCompilation": "no",
+      "Author": "Hadley Wickham [aut], Winston Chang [aut], Jim Hester [aut], Lionel Henry [aut, cre], Posit Software, PBC [cph, fnd], R Core team [ctb] (Some namespace and vignette code extracted from base R)",
+      "Maintainer": "Lionel Henry <lionel@posit.co>",
+      "Repository": "RSPM"
+    },
     "plyr": {
       "Package": "plyr",
       "Version": "1.8.9",
@@ -4357,6 +4251,26 @@
       "Author": "Paul-Christian Bürkner [aut, cre], Jonah Gabry [aut], Matthew Kay [aut], Aki Vehtari [aut], Måns Magnusson [ctb], Rok Češnovar [ctb], Ben Lambert [ctb], Ozan Adıgüzel [ctb], Jacob Socolar [ctb], Noa Kallioinen [ctb]",
       "Maintainer": "Paul-Christian Bürkner <paul.buerkner@gmail.com>",
       "Repository": "CRAN"
+    },
+    "praise": {
+      "Package": "praise",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Title": "Praise Users",
+      "Author": "Gabor Csardi, Sindre Sorhus",
+      "Maintainer": "Gabor Csardi <csardi.gabor@gmail.com>",
+      "Description": "Build friendly R packages that praise their users if they have done something good, or they just need it to feel better.",
+      "License": "MIT + file LICENSE",
+      "LazyData": "true",
+      "URL": "https://github.com/gaborcsardi/praise",
+      "BugReports": "https://github.com/gaborcsardi/praise/issues",
+      "Suggests": [
+        "testthat"
+      ],
+      "Collate": "'adjective.R' 'adverb.R' 'exclamation.R' 'verb.R' 'rpackage.R' 'package.R'",
+      "NeedsCompilation": "no",
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "prereg": {
       "Package": "prereg",
@@ -4643,36 +4557,6 @@
       "Maintainer": "Hadley Wickham <hadley@posit.co>",
       "Repository": "CRAN"
     },
-    "qpdf": {
-      "Package": "qpdf",
-      "Version": "1.4.1",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Split, Combine and Compress PDF Files",
-      "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"),  email = \"jeroenooms@gmail.com\", comment = c(ORCID = \"0000-0002-4035-0289\")), person(\"Ben\", \"Raymond\", role = \"ctb\"), person(\"Jay Berkenbilt\", role = \"cph\", comment = \"Author of libqpdf\"))",
-      "Description": "Content-preserving transformations transformations of PDF files such  as split, combine, and compress. This package interfaces directly to the 'qpdf'  C++ library <https://qpdf.sourceforge.io/> and does not require any command  line utilities. Note that 'qpdf' does not read actual content from PDF files:  to extract text and data you need the 'pdftools' package.",
-      "License": "Apache License 2.0",
-      "URL": "https://docs.ropensci.org/qpdf/ https://ropensci.r-universe.dev/qpdf",
-      "BugReports": "https://github.com/ropensci/qpdf/issues",
-      "Encoding": "UTF-8",
-      "Imports": [
-        "Rcpp",
-        "askpass",
-        "curl"
-      ],
-      "LinkingTo": [
-        "Rcpp"
-      ],
-      "RoxygenNote": "7.2.1",
-      "Suggests": [
-        "testthat"
-      ],
-      "SystemRequirements": "libjpeg",
-      "NeedsCompilation": "yes",
-      "Author": "Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>), Ben Raymond [ctb], Jay Berkenbilt [cph] (Author of libqpdf)",
-      "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
-      "Repository": "RSPM"
-    },
     "quadprog": {
       "Package": "quadprog",
       "Version": "1.5-8",
@@ -4727,42 +4611,6 @@
       "NeedsCompilation": "yes",
       "VignetteBuilder": "R.rsp",
       "Author": "Roger Koenker [cre, aut], Stephen Portnoy [ctb] (Contributions to Censored QR code), Pin Tian Ng [ctb] (Contributions to Sparse QR code), Blaise Melly [ctb] (Contributions to preprocessing code), Achim Zeileis [ctb] (Contributions to dynrq code essentially identical to his dynlm code), Philip Grosjean [ctb] (Contributions to nlrq code), Cleve Moler [ctb] (author of several linpack routines), Yousef Saad [ctb] (author of sparskit2), Victor Chernozhukov [ctb] (contributions to extreme value inference code), Ivan Fernandez-Val [ctb] (contributions to extreme value inference code), Martin Maechler [ctb] (tweaks (src/chlfct.f, 'tiny','Large'), <https://orcid.org/0000-0002-8685-9910>), Brian D Ripley [trl, ctb] (Initial (2001) R port from S (to my everlasting shame -- how could I have been so slow to adopt R!) and for numerous other suggestions and useful advice)"
-    },
-    "ragg": {
-      "Package": "ragg",
-      "Version": "1.4.0",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "Graphic Devices Based on AGG",
-      "Authors@R": "c( person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@posit.co\", role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"Maxim\", \"Shemanarev\", role = c(\"aut\", \"cph\"), comment = \"Author of AGG\"), person(\"Tony\", \"Juricic\", , \"tonygeek@yahoo.com\", role = c(\"ctb\", \"cph\"), comment = \"Contributor to AGG\"), person(\"Milan\", \"Marusinec\", , \"milan@marusinec.sk\", role = c(\"ctb\", \"cph\"), comment = \"Contributor to AGG\"), person(\"Spencer\", \"Garrett\", role = \"ctb\", comment = \"Contributor to AGG\"), person(\"Posit, PBC\", role = c(\"cph\", \"fnd\")) )",
-      "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
-      "Description": "Anti-Grain Geometry (AGG) is a high-quality and high-performance 2D drawing library. The 'ragg' package provides a set of graphic devices based on AGG to use as alternative to the raster devices provided through the 'grDevices' package.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://ragg.r-lib.org, https://github.com/r-lib/ragg",
-      "BugReports": "https://github.com/r-lib/ragg/issues",
-      "Imports": [
-        "systemfonts (>= 1.0.3)",
-        "textshaping (>= 0.3.0)"
-      ],
-      "Suggests": [
-        "covr",
-        "graphics",
-        "grid",
-        "testthat (>= 3.0.0)"
-      ],
-      "LinkingTo": [
-        "systemfonts",
-        "textshaping"
-      ],
-      "Config/Needs/website": "ggplot2, devoid, magick, bench, tidyr, ggridges, hexbin, sessioninfo, pkgdown, tidyverse/tidytemplate",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "SystemRequirements": "freetype2, libpng, libtiff, libjpeg",
-      "Config/testthat/edition": "3",
-      "Config/build/compilation-database": "true",
-      "NeedsCompilation": "yes",
-      "Author": "Thomas Lin Pedersen [cre, aut] (<https://orcid.org/0000-0002-5147-4711>), Maxim Shemanarev [aut, cph] (Author of AGG), Tony Juricic [ctb, cph] (Contributor to AGG), Milan Marusinec [ctb, cph] (Contributor to AGG), Spencer Garrett [ctb] (Contributor to AGG), Posit, PBC [cph, fnd]",
-      "Repository": "RSPM"
     },
     "ranger": {
       "Package": "ranger",
@@ -4969,48 +4817,6 @@
       "NeedsCompilation": "yes",
       "Repository": "CRAN"
     },
-    "revise": {
-      "Package": "revise",
-      "Version": "0.1.0",
-      "Source": "Repository",
-      "Title": "Dynamic Revision Letters for 'Rmarkdown' Manuscripts",
-      "Authors@R": "c( person(given = \"James\", family = \"Conigrave\", role = c(\"aut\", \"cre\"), email = \"james.conigrave@gmail.com\", comment = c(ORCID = \"0000-0002-8816-6229\")), person(given = \"Philip\", family = \"Parker\", role = c(\"aut\"), email = \"philip.parker@acu.edu.au\", comment = c(ORCID = \"0000-0002-4604-8566\")), person(given = \"Taren\", family = \"Sanders\", role = c(\"aut\"), email = \"taren.sanders@acu.edu.au\", comment = c(ORCID = \"0000-0002-4504-6008\")), person(given = \"Michael\", family = \"Noetel\", role = c(\"aut\"), email = \"m.noetel@uq.edu.au\", comment = c(ORCID = \"0000-0002-6563-8203\")), person(given = c(\"Caspar\", \"J.\"), family = \"Van Lissa\",  role = c(\"aut\"), email = \"c.j.vanlissa@tilburguniversity.edu\", comment = c(ORCID = \"0000-0002-0808-5024\")) )",
-      "Description": "Extracts tagged text from markdown manuscripts for inclusion in dynamically generated revision letters. Provides an R markdown template based on papaja::revision_letter_pdf() with comment cross-referencing, a system for managing multiple sections of extracted text, and a way to automatically determine the page number of quoted sections from PDF manuscripts.",
-      "License": "MIT + file LICENCE",
-      "URL": "https://github.com/conig/revise",
-      "BugReports": "https://github.com/conig/revise/issues",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "Depends": [
-        "R (>= 4.1.0)"
-      ],
-      "Imports": [
-        "bookdown",
-        "dplyr",
-        "glue",
-        "knitr",
-        "papaja",
-        "rmarkdown",
-        "rstudioapi",
-        "stringr",
-        "pdftools",
-        "officer",
-        "xml2",
-        "worcs",
-        "cli"
-      ],
-      "Suggests": [
-        "googledrive",
-        "docxtractr",
-        "testthat (>= 3.0.0)"
-      ],
-      "Config/testthat/edition": "3",
-      "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org",
-      "NeedsCompilation": "no",
-      "Author": "James Conigrave [aut, cre] (<https://orcid.org/0000-0002-8816-6229>), Philip Parker [aut] (<https://orcid.org/0000-0002-4604-8566>), Taren Sanders [aut] (<https://orcid.org/0000-0002-4504-6008>), Michael Noetel [aut] (<https://orcid.org/0000-0002-6563-8203>), Caspar J. Van Lissa [aut] (<https://orcid.org/0000-0002-0808-5024>)",
-      "Maintainer": "James Conigrave <james.conigrave@gmail.com>",
-      "Repository": "RSPM"
-    },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.6",
@@ -5117,42 +4923,6 @@
       "Author": "JJ Allaire [aut], Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>), Christophe Dervieux [aut] (<https://orcid.org/0000-0003-4474-2498>), Jonathan McPherson [aut], Javier Luraschi [aut], Kevin Ushey [aut], Aron Atkins [aut], Hadley Wickham [aut], Joe Cheng [aut], Winston Chang [aut], Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>), Andrew Dunning [ctb] (<https://orcid.org/0000-0003-0464-5036>), Atsushi Yasumoto [ctb, cph] (<https://orcid.org/0000-0002-8335-495X>, Number sections Lua filter), Barret Schloerke [ctb], Carson Sievert [ctb] (<https://orcid.org/0000-0002-4958-2844>), Devon Ryan [ctb] (<https://orcid.org/0000-0002-8549-0971>), Frederik Aust [ctb] (<https://orcid.org/0000-0003-4900-788X>), Jeff Allen [ctb], JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>), Malcolm Barrett [ctb], Rob Hyndman [ctb], Romain Lesur [ctb], Roy Storey [ctb], Ruben Arslan [ctb], Sergio Oller [ctb], Posit Software, PBC [cph, fnd], jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in inst/rmd/h/jqueryui/AUTHORS.txt), Mark Otto [ctb] (Bootstrap library), Jacob Thornton [ctb] (Bootstrap library), Bootstrap contributors [ctb] (Bootstrap library), Twitter, Inc [cph] (Bootstrap library), Alexander Farkas [ctb, cph] (html5shiv library), Scott Jehl [ctb, cph] (Respond.js library), Ivan Sagalaev [ctb, cph] (highlight.js library), Greg Franko [ctb, cph] (tocify library), John MacFarlane [ctb, cph] (Pandoc templates), Google, Inc. [ctb, cph] (ioslides library), Dave Raggett [ctb] (slidy library), W3C [cph] (slidy library), Dave Gandy [ctb, cph] (Font-Awesome), Ben Sperry [ctb] (Ionicons), Drifty [cph] (Ionicons), Aidan Lister [ctb, cph] (jQuery StickyTabs), Benct Philip Jonsson [ctb, cph] (pagebreak Lua filter), Albert Krewinkel [ctb, cph] (pagebreak Lua filter)",
       "Maintainer": "Yihui Xie <xie@yihui.name>",
       "Repository": "CRAN"
-    },
-    "rmdfiltr": {
-      "Package": "rmdfiltr",
-      "Version": "0.1.5",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "'Lua'-Filters for R Markdown",
-      "Authors@R": "c( person(\"Frederik\", \"Aust\", email = \"frederik.aust@uni-koeln.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4900-788X\")), person(\"Marius\", \"Barth\", role = c(\"ctb\")) )",
-      "URL": "https://github.com/crsh/rmdfiltr",
-      "BugReports": "https://github.com/crsh/rmdfiltr/issues",
-      "Description": "A collection of 'Lua' filters that extend the functionality of R Markdown templates (e.g., count words or post-process citations).",
-      "Imports": [
-        "assertthat (>= 0.2.1)",
-        "utils",
-        "rmarkdown (>= 1.12)"
-      ],
-      "SystemRequirements": "pandoc (>= 2.0; https://pandoc.org)",
-      "License": "MIT + file LICENSE",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "Suggests": [
-        "dplyr (>= 0.8.0.1)",
-        "ggplot2 (>= 3.0.0)",
-        "knitr (>= 1.22)",
-        "spelling (>= 2.1)",
-        "testthat (>= 2.0.0)",
-        "tibble (>= 2.1.1)",
-        "stringr",
-        "bibtex (>= 0.5.1)"
-      ],
-      "Language": "en-US",
-      "VignetteBuilder": "knitr",
-      "NeedsCompilation": "no",
-      "Author": "Frederik Aust [aut, cre] (<https://orcid.org/0000-0003-4900-788X>), Marius Barth [ctb]",
-      "Maintainer": "Frederik Aust <frederik.aust@uni-koeln.de>",
-      "Repository": "RSPM"
     },
     "rprojroot": {
       "Package": "rprojroot",
@@ -5618,51 +5388,6 @@
       "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
       "Repository": "CRAN"
     },
-    "systemfonts": {
-      "Package": "systemfonts",
-      "Version": "1.2.3",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "System Native Font Finding",
-      "Authors@R": "c( person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"Jeroen\", \"Ooms\", , \"jeroen@berkeley.edu\", role = \"aut\", comment = c(ORCID = \"0000-0002-4035-0289\")), person(\"Devon\", \"Govett\", role = \"aut\", comment = \"Author of font-manager\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")) )",
-      "Description": "Provides system native access to the font catalogue. As font handling varies between systems it is difficult to correctly locate installed fonts across different operating systems. The 'systemfonts' package provides bindings to the native libraries on Windows, macOS and Linux for finding font files that can then be used further by e.g. graphic devices. The main use is intended to be from compiled code but 'systemfonts' also provides access from R.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://github.com/r-lib/systemfonts, https://systemfonts.r-lib.org",
-      "BugReports": "https://github.com/r-lib/systemfonts/issues",
-      "Depends": [
-        "R (>= 3.2.0)"
-      ],
-      "Imports": [
-        "base64enc",
-        "grid",
-        "jsonlite",
-        "lifecycle",
-        "tools",
-        "utils"
-      ],
-      "Suggests": [
-        "covr",
-        "farver",
-        "graphics",
-        "knitr",
-        "rmarkdown",
-        "testthat (>= 2.1.0)"
-      ],
-      "LinkingTo": [
-        "cpp11 (>= 0.2.1)"
-      ],
-      "VignetteBuilder": "knitr",
-      "Config/build/compilation-database": "true",
-      "Config/Needs/website": "tidyverse/tidytemplate",
-      "Config/usethis/last-upkeep": "2025-04-23",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "SystemRequirements": "fontconfig, freetype2",
-      "NeedsCompilation": "yes",
-      "Author": "Thomas Lin Pedersen [aut, cre] (ORCID: <https://orcid.org/0000-0002-5147-4711>), Jeroen Ooms [aut] (ORCID: <https://orcid.org/0000-0002-4035-0289>), Devon Govett [aut] (Author of font-manager), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
-      "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
-      "Repository": "RSPM"
-    },
     "tarchetypes": {
       "Package": "tarchetypes",
       "Version": "0.13.1",
@@ -5806,6 +5531,65 @@
       "NeedsCompilation": "yes",
       "Repository": "CRAN"
     },
+    "testthat": {
+      "Package": "testthat",
+      "Version": "3.2.3",
+      "Source": "Repository",
+      "Title": "Unit Testing for R",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"R Core team\", role = \"ctb\", comment = \"Implementation of utils::recover()\") )",
+      "Description": "Software testing is important, but, in part because it is frustrating and boring, many of us avoid it. 'testthat' is a testing framework for R that is easy to learn and use, and integrates with your existing 'workflow'.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://testthat.r-lib.org, https://github.com/r-lib/testthat",
+      "BugReports": "https://github.com/r-lib/testthat/issues",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "brio (>= 1.1.3)",
+        "callr (>= 3.7.3)",
+        "cli (>= 3.6.1)",
+        "desc (>= 1.4.2)",
+        "digest (>= 0.6.33)",
+        "evaluate (>= 1.0.1)",
+        "jsonlite (>= 1.8.7)",
+        "lifecycle (>= 1.0.3)",
+        "magrittr (>= 2.0.3)",
+        "methods",
+        "pkgload (>= 1.3.2.1)",
+        "praise (>= 1.0.0)",
+        "processx (>= 3.8.2)",
+        "ps (>= 1.7.5)",
+        "R6 (>= 2.5.1)",
+        "rlang (>= 1.1.1)",
+        "utils",
+        "waldo (>= 0.6.0)",
+        "withr (>= 3.0.2)"
+      ],
+      "Suggests": [
+        "covr",
+        "curl (>= 0.9.5)",
+        "diffviewer (>= 0.1.0)",
+        "knitr",
+        "rmarkdown",
+        "rstudioapi",
+        "S7",
+        "shiny",
+        "usethis",
+        "vctrs (>= 0.1.0)",
+        "xml2"
+      ],
+      "VignetteBuilder": "knitr",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Config/testthat/parallel": "true",
+      "Config/testthat/start-first": "watcher, parallel*",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.2",
+      "NeedsCompilation": "yes",
+      "Author": "Hadley Wickham [aut, cre], Posit Software, PBC [cph, fnd], R Core team [ctb] (Implementation of utils::recover())",
+      "Maintainer": "Hadley Wickham <hadley@posit.co>",
+      "Repository": "RSPM"
+    },
     "texreg": {
       "Package": "texreg",
       "Version": "1.39.4",
@@ -5900,50 +5684,6 @@
       "Author": "Philip Leifeld [aut, cre], Claudia Zucca [ctb]",
       "Maintainer": "Philip Leifeld <philip.leifeld@manchester.ac.uk>",
       "Repository": "CRAN"
-    },
-    "textshaping": {
-      "Package": "textshaping",
-      "Version": "1.0.1",
-      "Source": "Repository",
-      "Title": "Bindings to the 'HarfBuzz' and 'Fribidi' Libraries for Text Shaping",
-      "Authors@R": "c( person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@posit.co\", role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")) )",
-      "Description": "Provides access to the text shaping functionality in the 'HarfBuzz' library and the bidirectional algorithm in the 'Fribidi' library.  'textshaping' is a low-level utility package mainly for graphic devices that expands upon the font tool-set provided by the 'systemfonts' package.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://github.com/r-lib/textshaping",
-      "BugReports": "https://github.com/r-lib/textshaping/issues",
-      "Depends": [
-        "R (>= 3.2.0)"
-      ],
-      "Imports": [
-        "lifecycle",
-        "stats",
-        "stringi",
-        "systemfonts (>= 1.1.0)",
-        "utils"
-      ],
-      "Suggests": [
-        "covr",
-        "grDevices",
-        "grid",
-        "knitr",
-        "rmarkdown",
-        "testthat (>= 3.0.0)"
-      ],
-      "LinkingTo": [
-        "cpp11 (>= 0.2.1)",
-        "systemfonts (>= 1.0.0)"
-      ],
-      "VignetteBuilder": "knitr",
-      "Config/build/compilation-database": "true",
-      "Config/testthat/edition": "3",
-      "Config/usethis/last-upkeep": "2025-04-23",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "SystemRequirements": "freetype2, harfbuzz, fribidi",
-      "NeedsCompilation": "yes",
-      "Author": "Thomas Lin Pedersen [cre, aut] (ORCID: <https://orcid.org/0000-0002-5147-4711>), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
-      "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
-      "Repository": "RSPM"
     },
     "theorytools": {
       "Package": "theorytools",
@@ -6220,35 +5960,6 @@
       "Maintainer": "Lionel Henry <lionel@posit.co>",
       "Repository": "CRAN"
     },
-    "tinylabels": {
-      "Package": "tinylabels",
-      "Version": "0.2.5",
-      "Source": "Repository",
-      "Title": "Lightweight Variable Labels",
-      "Authors@R": "person(given = \"Marius\", family = \"Barth\", role = c(\"aut\", \"cre\"), email = \"marius.barth.uni.koeln@gmail.com\", comment = c(ORCID = \"0000-0002-3421-6665\"))",
-      "Description": "Assign, extract, or remove variable labels from R vectors. Lightweight and dependency-free.",
-      "Imports": [
-        "methods",
-        "stats"
-      ],
-      "Suggests": [
-        "testthat",
-        "vctrs",
-        "dplyr",
-        "knitr",
-        "rmarkdown"
-      ],
-      "License": "MIT + file LICENSE",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
-      "URL": "https://github.com/mariusbarth/tinylabels",
-      "BugReports": "https://github.com/mariusbarth/tinylabels/issues",
-      "VignetteBuilder": "knitr",
-      "NeedsCompilation": "no",
-      "Author": "Marius Barth [aut, cre] (<https://orcid.org/0000-0002-3421-6665>)",
-      "Maintainer": "Marius Barth <marius.barth.uni.koeln@gmail.com>",
-      "Repository": "RSPM"
-    },
     "tinytex": {
       "Package": "tinytex",
       "Version": "0.57",
@@ -6379,25 +6090,6 @@
       "Maintainer": "Kirill Müller <kirill@cynkra.com>",
       "Repository": "CRAN"
     },
-    "uuid": {
-      "Package": "uuid",
-      "Version": "1.2-1",
-      "Source": "Repository",
-      "Title": "Tools for Generating and Handling of UUIDs",
-      "Author": "Simon Urbanek [aut, cre, cph] (https://urbanek.org, <https://orcid.org/0000-0003-2297-1732>), Theodore Ts'o [aut, cph] (libuuid)",
-      "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
-      "Authors@R": "c(person(\"Simon\", \"Urbanek\", role=c(\"aut\",\"cre\",\"cph\"), email=\"Simon.Urbanek@r-project.org\", comment=c(\"https://urbanek.org\", ORCID=\"0000-0003-2297-1732\")), person(\"Theodore\",\"Ts'o\", email=\"tytso@thunk.org\", role=c(\"aut\",\"cph\"), comment=\"libuuid\"))",
-      "Depends": [
-        "R (>= 2.9.0)"
-      ],
-      "Description": "Tools for generating and handling of UUIDs (Universally Unique Identifiers).",
-      "License": "MIT + file LICENSE",
-      "URL": "https://www.rforge.net/uuid",
-      "BugReports": "https://github.com/s-u/uuid/issues",
-      "NeedsCompilation": "yes",
-      "Repository": "RSPM",
-      "Encoding": "UTF-8"
-    },
     "vctrs": {
       "Package": "vctrs",
       "Version": "0.6.5",
@@ -6472,6 +6164,43 @@
       "NeedsCompilation": "no",
       "Author": "Simon Garnier [aut, cre], Noam Ross [ctb, cph], Bob Rudis [ctb, cph], Marco Sciaini [ctb, cph], Antônio Pedro Camargo [ctb, cph], Cédric Scherer [ctb, cph]",
       "Repository": "CRAN"
+    },
+    "waldo": {
+      "Package": "waldo",
+      "Version": "0.6.1",
+      "Source": "Repository",
+      "Title": "Find Differences Between R Objects",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Description": "Compare complex R objects and reveal the key differences. Designed particularly for use in testing packages where being able to quickly isolate key differences makes understanding test failures much easier.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://waldo.r-lib.org, https://github.com/r-lib/waldo",
+      "BugReports": "https://github.com/r-lib/waldo/issues",
+      "Depends": [
+        "R (>= 4.0)"
+      ],
+      "Imports": [
+        "cli",
+        "diffobj (>= 0.3.4)",
+        "glue",
+        "methods",
+        "rlang (>= 1.1.0)"
+      ],
+      "Suggests": [
+        "bit64",
+        "R6",
+        "S7",
+        "testthat (>= 3.0.0)",
+        "withr",
+        "xml2"
+      ],
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.2",
+      "NeedsCompilation": "no",
+      "Author": "Hadley Wickham [aut, cre], Posit Software, PBC [cph, fnd]",
+      "Maintainer": "Hadley Wickham <hadley@posit.co>",
+      "Repository": "RSPM"
     },
     "whisker": {
       "Package": "whisker",
@@ -6629,47 +6358,6 @@
       "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>, https://yihui.org), Wush Wu [ctb], Daijiang Li [ctb], Xianying Tan [ctb], Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>), Christophe Dervieux [ctb]",
       "Maintainer": "Yihui Xie <xie@yihui.name>",
       "Repository": "CRAN"
-    },
-    "xml2": {
-      "Package": "xml2",
-      "Version": "1.3.8",
-      "Source": "Repository",
-      "Title": "Parse XML",
-      "Authors@R": "c( person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Jeroen\", \"Ooms\", email = \"jeroenooms@gmail.com\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"R Foundation\", role = \"ctb\", comment = \"Copy of R-project homepage cached as example\") )",
-      "Description": "Bindings to 'libxml2' for working with XML data using a simple,  consistent interface based on 'XPath' expressions. Also supports XML schema validation; for 'XSLT' transformations see the 'xslt' package.",
-      "License": "MIT + file LICENSE",
-      "URL": "https://xml2.r-lib.org, https://r-lib.r-universe.dev/xml2",
-      "BugReports": "https://github.com/r-lib/xml2/issues",
-      "Depends": [
-        "R (>= 3.6.0)"
-      ],
-      "Imports": [
-        "cli",
-        "methods",
-        "rlang (>= 1.1.0)"
-      ],
-      "Suggests": [
-        "covr",
-        "curl",
-        "httr",
-        "knitr",
-        "magrittr",
-        "mockery",
-        "rmarkdown",
-        "testthat (>= 3.2.0)",
-        "xslt"
-      ],
-      "VignetteBuilder": "knitr",
-      "Config/Needs/website": "tidyverse/tidytemplate",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.3",
-      "SystemRequirements": "libxml2: libxml2-dev (deb), libxml2-devel (rpm)",
-      "Collate": "'S4.R' 'as_list.R' 'xml_parse.R' 'as_xml_document.R' 'classes.R' 'format.R' 'import-standalone-obj-type.R' 'import-standalone-purrr.R' 'import-standalone-types-check.R' 'init.R' 'nodeset_apply.R' 'paths.R' 'utils.R' 'xml2-package.R' 'xml_attr.R' 'xml_children.R' 'xml_document.R' 'xml_find.R' 'xml_missing.R' 'xml_modify.R' 'xml_name.R' 'xml_namespaces.R' 'xml_node.R' 'xml_nodeset.R' 'xml_path.R' 'xml_schema.R' 'xml_serialize.R' 'xml_structure.R' 'xml_text.R' 'xml_type.R' 'xml_url.R' 'xml_write.R' 'zzz.R'",
-      "Config/testthat/edition": "3",
-      "NeedsCompilation": "yes",
-      "Author": "Hadley Wickham [aut], Jim Hester [aut], Jeroen Ooms [aut, cre], Posit Software, PBC [cph, fnd], R Foundation [ctb] (Copy of R-project homepage cached as example)",
-      "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
-      "Repository": "RSPM"
     },
     "xtable": {
       "Package": "xtable",
