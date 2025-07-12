@@ -26,5 +26,5 @@ jobs:
       - name: Integration tests
         run: |
           install.packages("testthat")
-          source("tests/testthat.R")
+          worcs::test_worcs()
         shell: Rscript {0}
